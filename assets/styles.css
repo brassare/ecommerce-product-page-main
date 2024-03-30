@@ -1,0 +1,20 @@
+:root {
+  --colorPrimary-Orange: hsl(26, 100%, 55%);
+  --colorPrimary-PaleOrange: hsl(25, 100%, 94%);
+  
+  --colorNeutral-DarkBlue: hsl(220, 13%, 13%);
+  --colorNeutral-DarkGrayishBlue: hsl(219, 9%, 45%);
+  --colorNeutral-LightGrayishBlue: hsl(223, 64%, 98%);
+  --colorNeutral-GrayishBlue: hsl(220, 14%, 75%);
+  --colorNeutral-White: hsl(0, 0%, 100%);
+  --colorNeutral-Black: hsl(0, 0%, 0%);
+
+  --Font-size: 16px;
+  
+  --Font-family: 'Kumbh Sans', sans-serif;
+}
+
+a { 
+  text-decoration: none;
+  color: black;
+}
