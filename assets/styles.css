@@ -14,7 +14,90 @@
   --Font-family: 'Kumbh Sans', sans-serif;
 }
 
+body {
+  padding: 0 10rem;
+}
+
+header {
+  font-size: var(--Font-size);
+  font-family: var(--Font-family);
+}
+
+header > div {
+  border-bottom: 1px solid var(--colorNeutral-DarkGrayishBlue);
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a:first-child{
+  color: var(--colorNeutral-Black);
+  font-weight: bold;
+  margin-right: 30px;
+  font-size: 30px;
+}
 a { 
   text-decoration: none;
-  color: black;
+  color: var(--colorNeutral-DarkGrayishBlue);
 }
+
+.profile-picture{
+  width: 40px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.carrinho-compra{
+  cursor: pointer;
+}
+
+main{
+  margin-top: 80px;
+}
+
+picture > img{
+  margin-left: 30px;
+  width: 420px;
+  margin-bottom: 20px;
+  
+}
+img {
+  border-radius: 10px;
+}
+
+
+.carousel-images{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.img-carrosel {
+  width: 95px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
