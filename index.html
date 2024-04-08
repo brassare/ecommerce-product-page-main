@@ -34,24 +34,48 @@
   </header>
 
   <main>
-    <div>
-      <picture>
-        <img src="images/image-product-1-thumbnail.jpg" alt="imagem do tenis">
-      </picture>
-      <div class="carousel-images">
-      <img src="images/image-product-1-thumbnail.jpg" alt="imagem do tenis" class="img-carrosel">
-      <img src="images/image-product-2-thumbnail.jpg" alt="imagem do tenis" class="img-carrosel">
-      <img src="images/image-product-3-thumbnail.jpg" alt="imagem do tenis" class="img-carrosel">
-      <img src="images/image-product-4-thumbnail.jpg" alt="imagem do tenis" class="img-carrosel">
-    </div>
-    <p>sneaker company</p>
-    <h3>Fall Limited Edition Sneakers</h3>
-    <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole. They'll withstand everything the weather can offer.</p>
-    <p>$125.00 <span>50%</span></p>
-    <p>$250.00</p>
+    <section class="container">
 
-    </div>
-    <div></div>
+      <div class="img-product">
+        <picture>
+          <img src="images/image-product-1-thumbnail.jpg" alt="imagem do tenis">
+        </picture>
+        <div class="carousel-images">
+          <img src="images/image-product-1-thumbnail.jpg" alt="imagem do tenis" class="img-carrosel">
+          <img src="images/image-product-2-thumbnail.jpg" alt="imagem do tenis" class="img-carrosel">
+          <img src="images/image-product-3-thumbnail.jpg" alt="imagem do tenis" class="img-carrosel">
+          <img src="images/image-product-4-thumbnail.jpg" alt="imagem do tenis" class="img-carrosel">
+        </div>
+      </div>
+      <div class="description-product">
+        <p>sneaker company</p>
+        <h3>Fall Limited Edition Sneakers</h3>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole.
+          They'll withstand everything the weather can offer.</p>
+        <p>$125.00 <span>50%</span></p>
+        <p>$250.00</p>
+
+        <div class="price-product">
+          <button id="decrementar">-</button>
+          <input type="number" id="quantidade" name="quantidade" value="0" min="0" max="5">
+          <style>
+            input[type=number]::-webkit-inner-spin-button,
+            input[type=number]::-webkit-outer-spin-button {
+              -webkit-appearance: none;
+              margin: 0;
+            }
+          </style>
+          <button id="incrementar">+</button>
+
+          <div class="addto-cart">
+            <button class="button-cart"><img src="images/icon-cart.svg" alt="imagem carrinho" class="cart-img">add to
+              cart</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
 
   </main>
 
